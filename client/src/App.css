@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  background-color: #454552;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* scrrenrecording */
+.pt-3
+{
+  position: absolute !important;
+  top: 5% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  overflow: auto;
+  border-radius: 4px !important;
+  outline: none !important;
+  z-index: 500;  
+}
+.shadow>.screen-record
+{
+  z-index: 10000 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  
+}
+.btn-1,.btn-2
+{
+    margin: 10px !important;
+    cursor:pointer;
+
+}
+.navbar{
+  box-shadow: 0 0 2px 0 #333;
+}
+.navbar-container{
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* homepage */
+.hompage{
+  display: flex;
+  height: 60vh;
+  color: #333;
+  
+}
+.join-section{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #454552bb;
+
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+}
+.form-container .form-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.form-container .form-group label{
+  text-align: right;
+}
+.form-container .form-group input[type='text']{
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  border: 2px solid #52abffb1;
+}
+
+.info-section{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.info-section p{
+  text-transform: capitalize;
+}
+.info-section .info-offers{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  text-transform: capitalize;
+}
+.info-section .info-offers ul li{
+  font-size: 20px;
+}
+
+@media screen and (max-width:650px){
+  .join-section{
+    border-right: none;
+    border-bottom: 1px solid #454552bb;
+    margin-bottom: 5px;
+  }
+  .hompage{
+    flex-direction: column;
+  }
+}
