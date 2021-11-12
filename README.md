@@ -2,7 +2,7 @@
 
 A simple video chat application for multi-users based on React, Node Express and WebRTC.
 
-This project is **deployed** at: 
+This project is **deployed** at: https://xyzmeetvideochat.herokuapp.com/
 
 **Technologies Used**
 
