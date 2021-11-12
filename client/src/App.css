@@ -60,7 +60,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #454552bb;
+  border-right: 1px solid #45455285;
 
 }
 .form-container{
@@ -108,7 +108,7 @@
 @media screen and (max-width:650px){
   .join-section{
     border-right: none;
-    border-bottom: 1px solid #454552bb;
+    border-bottom: 1px solid #45455285;
     margin-bottom: 5px;
   }
   .hompage{
