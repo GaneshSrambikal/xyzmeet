@@ -218,13 +218,9 @@ class ScreenRecording extends React.Component {
                         Stop Recording
                       </Button>
                       {this.state.startDisable && (
-                        <h3 className="text-success pt-2">Recording..</h3>
+                        <h4 className="text-success pt-2">Recording..</h4>
                       )}
-                      {this.state.startDisable && (
-                        <h3 className="text-warning pt-2">
-                          Please dont refersh page.
-                        </h3>
-                      )}
+                      
                     </Col>
                   </Row>
                 
