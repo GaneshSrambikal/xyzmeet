@@ -1,4 +1,4 @@
-# Video-Group-Meeting-Server
+# XYZ MEET
 
 - Node Express
 - Socket.io

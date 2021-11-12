@@ -1,4 +1,4 @@
-# Video-Group-Meeting-Client
+# XYZ Meet
 
 - React
 - WebRTC
