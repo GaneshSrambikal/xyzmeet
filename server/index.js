@@ -28,11 +28,11 @@ app.get('/ping', (req, res) => {
 
 // Socket
 io.on('connection', (socket) => {
-  console.log(`New User connected: ${socket.id}`);
+  // console.log(`New User connected: ${socket.id}`);
 
   socket.on('disconnect', () => {
     socket.disconnect();
-    console.log('User disconnected!');
+    // console.log('User disconnected!');
   });
 
   socket.on('BE-check-user', ({ roomId, userName }) => {
